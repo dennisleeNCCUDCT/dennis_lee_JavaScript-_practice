@@ -1,0 +1,17 @@
+var a=Math.random();
+
+var b=Math.random();
+
+console.log("a=:"+a);
+
+console.log("b=:"+b+"\r");
+
+
+
+if(a>b){
+    console.log("a>b:(相差)"+(a-b))
+}else if(a<b){
+    console.log("a<b:(相差)"+(b-a))
+}else{
+    console.log("=")
+}
