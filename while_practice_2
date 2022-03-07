@@ -1,0 +1,10 @@
+var t=0;
+
+while(t<10){
+    var a=Math.random()*10;
+    console.log(a);
+    t++;
+    
+    
+    
+}
